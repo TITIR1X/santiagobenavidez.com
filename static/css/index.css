@@ -1,0 +1,73 @@
+body {
+    overflow: auto;
+}
+
+.footprint {
+    color: #00E5EE;
+    margin: 0 auto;
+    font: 6px/3px monospace;
+    width: 700px;
+    text-align: center;
+    padding: 60px 0px 50px 0px;
+    border: 0;
+}
+
+.material-symbols-outlined {
+    vertical-align: middle;
+}
+
+.biography {
+    background-color: rgba(000, 000, 000, 0.2);
+    display: table;
+    text-align: center;
+    width: 640px;
+    margin: 0 auto;
+    border: 1px solid #00e6ee7c;
+    color: #00e6ee7c;
+    font-weight: bold;
+    font-family: verdana;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 20px 30px;
+}
+
+.body-style {
+    background-color: black;
+}
+
+@media (max-width: 780px) {
+}
+
+.d {
+    color: #00E5EE;
+    cursor: default;
+    transition: 1.2s;
+}
+
+.d:hover {
+    background-color: #00E5EE;
+    transition: none;
+}
+
+.e {
+    color: #00E5EE;
+    cursor: default;
+    transition-delay: 300s;
+}
+
+.e:hover {
+    background-color: #00E5EE;
+    color: #00E5EE;
+    transition: none;
+}
+
+.f {
+    color: #00E5EE;
+    cursor: default;
+    transition-delay: 45s;
+}
+
+.f:hover {
+    color: yellow;
+    transition: none;
+}
